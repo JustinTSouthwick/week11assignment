@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(124, 130, 139);
+}
+body {
+    text-align: center;
+}
+
+button {
+    margin-top: 4px;
+}
+
+#gameboard {
+    display: grid;
+    width: 300px;
+    margin: auto;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    font-size: 70px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
